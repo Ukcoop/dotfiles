@@ -6,7 +6,7 @@ for i3, i used this tutorial to make its config [i3wm config playlist](https://w
 
 # install required packages
 ```
-sudo apt install i3 i3blocks rofi feh gnome-terminal stow -y
+sudo apt install i3 i3blocks lightdm-gtk-gretter rofi feh gnome-terminal stow -y
 ```
 nvim may need to be compiled from source
 
@@ -20,9 +20,8 @@ stow .
 
 i use arc dark for my theme so make sure thats installed, the tutorial playlist tells how to install it.
 
-to set the theming, run:
+to set the arc dark or other theme, run:
 ```
 lxapperance
-rofi-theme-selector
 lightdm-gtk-gretter-settings
 ```

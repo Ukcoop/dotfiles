@@ -184,9 +184,7 @@ set $indicator           #232323
 
 exec_always compton -f
 
-bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 800 -opacity "85" -bw 0 -font "System San Francisco Display 18"
-
-
+bindsym $mod+d exec rofi -show run 
 
 #                       border              background         text                 indicator
 client.focused          $bg-color           $bg-color          $text-color          $indicator
